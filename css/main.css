@@ -8,7 +8,7 @@ nav { padding: 10px 0; }
 h1, h2, h3, h4, h5, h6 { margin: 0; }
 /***************************************/
 .container {
-    margin: 0 auto;; max-width: 1170px;
+    margin: 0 auto; max-width: rem(1170);
 }
 
 section {
@@ -42,7 +42,7 @@ section {
 .btn{
     cursor: pointer;
     border: 0;
-    padding: 6px 12px;
+    padding: rem(6) rem(12);
     border-radius: 3px;
     line-height: 1.4;
 }
@@ -60,7 +60,7 @@ section {
 
 .form-control {
     display: block;
-    padding: 6px 12px;
+    padding: rem(6) rem(12);
     border: 1px solid #a0a0a0;
     color: #8598a2;
     line-height: 1.4;
@@ -79,4 +79,74 @@ section {
 .text-primary{
     font-size: 16px;
     color: #364147;
+}
+
+.header-nav{
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.brand{
+    widows: rem(170);
+    height: rem(85);
+    margin-left: rem(-15);
+    margin-right: rem(60);
+}
+
+.logo{
+    max-width: 100%;
+    height: auto;
+}
+
+.search-box{
+    width: rem(330);
+    height: rem(30);
+    padding: rem(6) rem(12);
+    border: 1px solid #a0a0a0
+}
+
+.search-button{
+    background-color: #a0a0a0;
+    color: #ffffff;
+    width: rem(100);
+    height: rem(30);
+    border: 0;
+    padding: 0;
+}
+
+.nav-list{
+    padding-left: 0;
+    width: rem(575);
+    margin-top: rem(10);
+}
+
+.nav-list li a{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+.profile{
+    margin-left: auto;
+}
+
+.account{
+    text-align: right;
+    padding: rem(15);
+    color: #364147;
+    font-size: 18px;
+}
+
+.account a{
+    font-size: 14px;
+}
+
+.profile-pic{
+    width: rem(60);
+    height: rem(60);
+}
+
+.profile-pic img{
+    border-radius: 100px;
+    max-width: 100%;
 }
