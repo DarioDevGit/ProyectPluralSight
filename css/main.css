@@ -234,3 +234,72 @@ section {
     font-weight: 700;
     line-height: 1;
 }
+
+.full-banner{
+    padding: 0 rem(15);
+    margin: rem(50) 0;
+    position: relative;
+}
+
+.full-banner:before{
+    content: "";
+    position: absolute;
+    border: 1px solid #ffffff;
+    top: rem(30);
+    bottom: rem(30);
+    left: rem(50);
+    right: rem(50);
+    z-index: 1;
+}
+
+.full-banner-image{
+    flex: 0 0 58.333333%;
+    background-image: url('../img/vista.jpg');
+    background-size: cover;
+    background-position: top center;
+    min-height: rem(400);
+}
+
+.full-banner-sidebar{
+    flex: 0 0 41.66667%;
+    background-color: #364147;
+    text-transform: uppercase;
+    padding: rem(30);
+    color: #ffffff;
+}
+
+.full-banner-sidebar h4{
+    font-size: 40px;
+    font-weight: 700;
+    color: #637f94;
+    font-style: italic;
+    line-height: 1;
+}
+
+.full-banner-sidebar h4:after{
+    content:"";
+    width: rem(100);
+    height: rem(1);;
+    background-color: #faa541;
+    margin: rem(20) auto;
+    display: block;
+}
+
+.full-banner-sidebar >div:nth-of-type(1){
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.full-banner-sidebar > div:nth-of-type(2){
+    font-size: 25px;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+.full-banner-sidebar .btn.btn-default{
+    margin-top: rem(50);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 1;
+}
