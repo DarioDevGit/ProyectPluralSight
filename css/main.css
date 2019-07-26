@@ -150,3 +150,87 @@ section {
     border-radius: 100px;
     max-width: 100%;
 }
+
+.hero{
+    background-image: url('../img/hero.jpg');
+    height: rem(400);
+    background-size: cover;
+    background-position: center center;
+    text-transform: uppercase;
+}
+
+.hero h1{
+    position: relative;
+    left: rem(-30);
+}
+
+.hero h2{
+    color: #faa541;
+}
+
+.hero h1, .hero h2{
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 0.9;
+}
+
+.hero p{
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 21px;
+    margin: 0 0 rem(10);
+}
+
+.banner{
+    margin: rem(55) rem(15);
+    width: 100%;
+    border-top: 1px solid #a0a0a0;
+    border-bottom: 1px solid #a0a0a0;
+    padding: rem(25 0);
+}
+
+.banner img {
+    width: rem(250);
+}
+
+.banner-text{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+}
+
+.banner-text > div:last-child{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: rem(5);
+}
+
+.category {
+    flex: 0 0 25%;
+    padding: 0 rem(15);
+}
+
+.category img{
+    width: 100%;
+}
+
+.category-text{
+    color: #364147;
+    padding: rem(30) 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.category-text > div{
+    font-size: 16px;
+    font-weight: 200;
+    color: #faa541;
+}
+
+.category-text h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+}
