@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Carved Rock Fitness</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
@@ -10,7 +11,7 @@
 
   <!-- NAVIGATION -->
   <nav class="header-nav">
-    <div class="container flex space-between">
+    <div class="header-nav__container flex space-between">
       <!-- BRANDING -->
       <div class="logo-container flex align-center">
         <a href="#">
@@ -18,7 +19,7 @@
         </a>
       </div>
       <!-- SEARCH -->
-      <div class="flex flex-one align-center">
+      <div class="header-nav__search flex flex-one align-center">
         <div>
           <form>
             <input class="search-box" aria-label="Search" placeholder="What can we help you find?" type="search">
@@ -34,7 +35,7 @@
         </div>
         <!-- PROFILE -->
         <div class="flex align-center profile">
-          <div class="flex flex-colum account>
+          <div class="flex flex-column account>
             John Doe <a href="#">Log Out</a>
           </div>
           <div class="profile-pic">
@@ -42,12 +43,18 @@
           </div>
         </div>
       </div>
+      <!-- MENU RESPONSIVE -->
+      <div class="header-nav__menu  menu">
+        <figure class="menu_img">
+          <img alt="Hamburger menu" src="img/hamburguer_menu.png">
+        </figure>
+      </div>
     </div>
   </nav>
 
     <!-- HERO -->
   <section class="hero">
-    <div class="container flex flex-colum align-center center">
+    <div class="container flex flex-column align-center center">
       <h1>Get A Grip</h1>
       <h2>20% Off</h2>
       <p>Throughout The Season</p>
@@ -71,7 +78,7 @@
     </section>
 
     <!-- CATEGORIES -->
-    <section>
+    <section class="container__section">
       <div class="category">
         <a href="#">
           <img alt="Splash Chic" src="img/category-1.jpg" />
@@ -113,7 +120,7 @@
     <!-- FULL BANNER -->
     <section class="full-banner">
       <div class="full-banner-image"></div>
-      <div class="flex flex-colum align-center center full-banner-sidebar">
+      <div class="full-banner-text flex flex-column align-center center full-banner-sidebar">
         <h4>Trail Review</h4>
         <div>Asphalt</div>
         <div>National Park</div>
@@ -125,7 +132,7 @@
 
   <!-- FOOTER -->
   <footer>
-    <section class="container space-between lists">
+    <section class="container__text space-between lists">
       <div>
         <div class="text-primary link-header">Customer Support</div>
         <ul>
@@ -176,13 +183,13 @@
 
     <!-- PS DEMO -->
     <section class="ps">
-      <div class="bcolum flex flex-colum align-center">
+      <div class="ps-bcolum flex flex-column align-center">
         <img src="img/pluralsight-white.png" />
         <div class="demo">This site is created for demonstrative purposes only and does not offer any real products or services.</div>
       </div>
     </section>
 
-    <div class="text-primary copyright">&copy;Pluralsight 2018</div>
+    <div class="pl text-primary copyright">&copy;Pluralsight 2018</div>
   </footer>
 </body>
 </html>
