@@ -58,6 +58,14 @@ section {
     background-color: #364147;
 }
 
+.buttonimg{
+    background-image: url("/img/hamburguer_menu.png");
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    background-position: center;
+}
+
 .form-control {
     display: block;
     padding: 6px 12px;
@@ -105,7 +113,7 @@ section {
 }
 
 .logo{
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -475,12 +483,25 @@ footer a:hover{
         display: none;
     }
 
+    .mediaflex{
+        display:flex;
+        align-items: flex-end;
+    }
+
     .header-nav__menu{
         display: flex;
     }
     .menu_img img{
         width: 45px;
-        height: 35px;
+        height: 45px;
+    }
+
+    .menu_img button{
+        background: none;
+    }
+
+    .menu_img button:hover{
+        cursor: pointer;
     }
 
     .container__section{
